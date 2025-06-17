@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Shreya Mitra | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>Shreya Mitra</h1>
+      <nav>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About Me</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section id="home" class="section home">
+    <div class="container">
+      <img src="profile.jpg" alt="Profile Photo" class="profile-photo">
+      <h2>Hello, I'm Shreya</h2>
+      <p>I’m a creative and passionate Web Developer building beautiful and functional websites using HTML, CSS, JavaScript, and React.</p>
+    </div>
+  </section>
+
+  <section id="about" class="section about">
+    <div class="container">
+      <h2>About Me</h2>
+      <p>I’m a Computer Science graduate with a strong foundation in full-stack web development. I love turning ideas into real-world digital products with clean UI and seamless UX.</p>
+      <ul>
+        <li><strong>Education:</strong> B.Tech in Computer Science</li>
+        <li><strong>Experience:</strong> Front-End Developer at XYZ Technologies</li>
+        <li><strong>Skills:</strong> HTML, CSS, JavaScript, React, Node.js, Git</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="projects" class="section projects">
+    <div class="container">
+      <h2>Projects</h2>
+      <div class="project-list">
+        <div class="project">
+          <h3>Portfolio Website</h3>
+          <p>A modern personal portfolio site built with HTML, CSS, and JavaScript showcasing my skills and projects.</p>
+        </div>
+        <div class="project">
+          <h3>Weather App</h3>
+          <p>A responsive weather app using OpenWeather API, built with vanilla JavaScript and Bootstrap.</p>
+        </div>
+        <div class="project">
+          <h3>Task Tracker</h3>
+          <p>A productivity tool developed in React that helps manage daily tasks efficiently.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="section contact">
+    <div class="container">
+      <h2>Contact Me</h2>
+      <form id="contactForm">
+        <input type="text" placeholder="Your Name" required />
+        <input type="email" placeholder="Your Email" required />
+        <textarea placeholder="Your Message" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+      <p id="formMessage" class="hidden">Thank you! I'll get back to you soon.</p>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 Shreya Mitra. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
